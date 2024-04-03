@@ -118,3 +118,14 @@ h3 {
 .contenido-hero h2 {
     color: var(--blanco);
 }
+
+/* Footer */
+.footer {
+    background-color: var(--primario);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer p {
+    margin: 0%;
+}
