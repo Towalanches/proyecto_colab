@@ -48,6 +48,8 @@ body {
 
 .contenedor img {
     width: 95%;
+    border-style: inset;
+    border-color: var(--oscuro);
 }
 
 /*Tipografía*/
