@@ -7,8 +7,8 @@
     --grisClaro: #dfe9f3;
 }
 
-/* Globales */
 
+/* Globales */
 html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -38,19 +38,7 @@ body {
     background-color: var(--grisClaro);
 }
 
-.contenedor hr {
-    margin: 3rem;
-}
 
-.fecha {
-    color: var(--secunadiro);
-}
-
-.contenedor img {
-    width: 95%;
-    border-style: inset;
-    border-color: var(--oscuro);
-}
 
 /*Tipografía*/
 h1 {
@@ -71,6 +59,12 @@ h1,
 h2,
 h3 {
     text-align: center;
+}
+
+
+/* Header */
+header span {
+    font-size: 2.8rem;
 }
 
 /*Navegación principal*/
@@ -113,14 +107,14 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 80vw;
     position: relative;
     margin-bottom: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1020px) {
     .hero {
-        background-size: 100% 175%;
+        height: 50vw;
     }
 }
 
@@ -137,6 +131,25 @@ h3 {
 
 .contenido-hero h2 {
     color: var(--grisClaro);
+}
+
+/* Contenido principal */
+.contenedor hr {
+    margin: 3rem;
+}
+
+.fecha {
+    color: var(--secunadiro);
+}
+
+.contenedor img {
+    width: 95%;
+    border-style: inset;
+    border-color: var(--oscuro);
+}
+
+.contenedor p {
+    padding: 0 3rem 0 3rem;
 }
 
 /* Portafolio */
@@ -183,6 +196,7 @@ h3 {
 .icono:hover .texto {
     opacity: 1;
 }
+
 
 /* Footer */
 .footer {
